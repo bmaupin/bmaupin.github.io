@@ -1,1 +1,30 @@
-Hello World
+<!doctype html>
+<html ng-app="app">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
+    <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
+    <script src="https://rawgit.com/bmaupin/weighted-password-generator/master/weighted-passgen.js"></script>
+    <!--<script src="src/numberpicker/numberpicker.js"></script>-->
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container" ng-controller="Controller">
+    <div>
+      <pre id="newPassword" class="form-group-lg">{{newPassword}}</pre>
+    </div>
+    <div>
+      <input type="checkbox" ng-model="includeLower" ng-change="updateClasses()"> Include lowercase (abc...)<br/>
+      <input type="checkbox" ng-model="includeUpper" ng-change="updateClasses()"> Include uppercase (ABC...)<br/>
+      <input type="checkbox" ng-model="includeNumbers" ng-change="updateClasses()"> Include numbers (123...)<br/>
+      <input type="checkbox" ng-model="includeSymbols" ng-change="updateClasses()"> Include symbols (@#$...)<br/>
+<!--      <label>Name:</label>
+      <input type="text" ng-model="yourName" placeholder="Enter a name here">
+      <hr>
+      <h1>Hello {{yourName}}!</h1>
+-->
+    </div>
+    </div>
+  </body>
+</html>

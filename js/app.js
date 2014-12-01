@@ -19,5 +19,20 @@ angular.module('app', [])
     
       generateNewPass();
     }
-  }]);
+  }])
+  // Directive to select the password text when clicking on it for easier copying
+  .directive('selectOnClick', function () {
+    return {
+      restrict: 'A',
+      link: function (scope, element, attrs) {
+        element.on('click', function () {
+          var selection = window.getSelection();            
+          var range = document.createRange();
+          range.selectNodeContents(this);
+          selection.removeAllRanges();
+          selection.addRange(range);
+        });
+      }
+    };
+  });
 

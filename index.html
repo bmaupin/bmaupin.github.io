@@ -12,7 +12,7 @@
   <body>
     <div class="container" ng-controller="Controller">
     <div>
-      <pre id="newPassword" class="form-group-lg">{{newPassword}}</pre>
+      <pre id="newPassword" class="form-group-lg" select-on-click>{{newPassword}}</pre>
     </div>
     <div>
       <input type="checkbox" ng-model="includeLower" ng-change="updateClasses()"> Include lowercase (abc...)<br/>

@@ -5,11 +5,11 @@ angular.module('app', [])
     $scope.includeNumbers = true;
     $scope.includeSymbols = true;
   
-    generateNewPass = function() {
+    $scope.generateNewPass = function() {
       $scope.newPassword = WeightedPasswordGen.genPassword();
     }
     
-    generateNewPass();
+    $scope.generateNewPass();
     
     $scope.updateClasses = function() {
       WeightedPasswordGen.charClasses["lowerLetters"].enabled = $scope.includeLower;
@@ -17,7 +17,7 @@ angular.module('app', [])
       WeightedPasswordGen.charClasses["numbers"].enabled = $scope.includeNumbers;
       WeightedPasswordGen.charClasses["symbols"].enabled = $scope.includeSymbols;
     
-      generateNewPass();
+      $scope.generateNewPass();
     }
   }])
   // Directive to select the password text when clicking on it for easier copying

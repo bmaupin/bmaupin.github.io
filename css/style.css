@@ -1,5 +1,14 @@
 body {
-  padding: 50px;
+  /*padding: 50px;*/
+}
+
+div {
+  margin: 20px 0;
+}
+
+/* bootstrap pre has a bottom margin of 10px, so get rid of it for easier consistency */
+pre {
+  margin: 0;
 }
 
 .container {

@@ -11,20 +11,15 @@
   </head>
   <body>
     <div class="container" ng-controller="Controller">
-    <div>
-      <pre id="newPassword" class="form-group-lg" select-on-click>{{newPassword}}</pre>
-    </div>
-    <div>
-      <input type="checkbox" ng-model="includeLower" ng-change="updateClasses()"> Include lowercase (abc...)<br/>
-      <input type="checkbox" ng-model="includeUpper" ng-change="updateClasses()"> Include uppercase (ABC...)<br/>
-      <input type="checkbox" ng-model="includeNumbers" ng-change="updateClasses()"> Include numbers (123...)<br/>
-      <input type="checkbox" ng-model="includeSymbols" ng-change="updateClasses()"> Include symbols (@#$...)<br/>
-<!--      <label>Name:</label>
-      <input type="text" ng-model="yourName" placeholder="Enter a name here">
-      <hr>
-      <h1>Hello {{yourName}}!</h1>
--->
-    </div>
+      <div>
+        <pre id="newPassword" class="form-group-lg" select-on-click>{{newPassword}}</pre>
+      </div>
+      <div>
+        <input type="checkbox" ng-model="includeLower" ng-change="updateClasses()"> Include lowercase (abc...)<br/>
+        <input type="checkbox" ng-model="includeUpper" ng-change="updateClasses()"> Include uppercase (ABC...)<br/>
+        <input type="checkbox" ng-model="includeNumbers" ng-change="updateClasses()"> Include numbers (123...)<br/>
+        <input type="checkbox" ng-model="includeSymbols" ng-change="updateClasses()"> Include symbols (@#$...)<br/>
+      </div>
     </div>
   </body>
 </html>

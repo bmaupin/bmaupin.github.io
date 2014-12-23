@@ -1,3 +1,6 @@
+---
+layout: 
+---
 <!doctype html>
 <html ng-app="app">
   <head>
@@ -8,11 +11,29 @@
     <script src="js/app.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+    #content {
+      margin-top: 20px;
+    }
+    #content div {
+      margin: 20px 0;
+    }
+    /* bootstrap pre has a bottom margin of 10px, so get rid of it for easier consistency */
+    pre {
+      margin: 0;
+    }
+    
+    #newPassword {
+      display: inline-block;
+      font-size: 1.5em;
+    }
+    </style>
   </head>
   <body>
-    <div class="container" ng-controller="Controller">
+    {% include header.html %}
+    <div class="container" id="content" ng-controller="Controller">
       <div>
-        <pre id="newPassword" class="form-group-lg" select-on-click>{{newPassword}}</pre>
+        <pre id="newPassword" class="form-group-lg" select-on-click>{% raw %}{{newPassword}}{% endraw %}</pre>
       </div>
       <div>
         <input type="checkbox" ng-model="includeLower" ng-change="updateClasses()"> Include lowercase (abc...)<br/>

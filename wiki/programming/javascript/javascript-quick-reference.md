@@ -2,6 +2,17 @@
 title: JavaScript quick reference
 ---
 
+### Misc
+
+**Else if format**
+
+```javascript
+} else if (...) {
+```
+
+<br>
+
+
 ### Arrays
 
 **Determine if a value is in an array**

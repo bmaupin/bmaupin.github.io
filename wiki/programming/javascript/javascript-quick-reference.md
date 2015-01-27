@@ -15,6 +15,27 @@ title: JavaScript quick reference
 
 ### Arrays
 
+**Create an array**
+
+```javascript
+var items = [];
+```
+
+
+**Add items to an array**
+
+```javascript
+items.push('item');
+```
+
+
+**Join items in an array to a string**
+
+```javascript
+items.join(' ');
+```
+
+
 **Determine if a value is in an array**
 
 ```javascript

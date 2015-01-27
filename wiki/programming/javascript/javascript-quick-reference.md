@@ -20,6 +20,7 @@ title: JavaScript quick reference
 ```javascript
 var items = [];
 ```
+<br>
 
 
 **Add items to an array**
@@ -27,6 +28,7 @@ var items = [];
 ```javascript
 items.push('item');
 ```
+<br>
 
 
 **Join items in an array to a string**
@@ -34,6 +36,7 @@ items.push('item');
 ```javascript
 items.join(' ');
 ```
+<br>
 
 
 **Determine if a value is in an array**

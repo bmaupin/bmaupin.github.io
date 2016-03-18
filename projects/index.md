@@ -12,7 +12,7 @@ title: Projects
   - EPUB
 - Arabic flashcards app for Android
   - Java, Android
-- [Wordpress Site Plugins plugin](https://github.com/bmaupin/graveyard/tree/master/php/wpmu-plugins)
+- [Wordpress Site Plugins page](https://github.com/bmaupin/wordpress-site-plugins)
   - PHP, WordPress
 - [WordPress MU Prune plugin](https://github.com/bmaupin/graveyard/tree/master/php/wpmu-prune)
   - PHP, WordPress, MySQL

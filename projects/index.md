@@ -14,7 +14,7 @@ title: Projects
   - Java, Android
 - [Wordpress Site Plugins page](https://github.com/bmaupin/wordpress-site-plugins)
   - PHP, WordPress
-- [WordPress MU Prune plugin](https://github.com/bmaupin/graveyard/tree/master/php/wpmu-prune)
+- [WordPress MU Prune plugin](https://github.com/bmaupin/junkpile/tree/master/php/wpmu-prune)
   - PHP, WordPress, MySQL
 - [CUPS backend for IPP with NTLM](https://github.com/bmaupin/cups-ntlm)
   - Python, CUPS, IPP

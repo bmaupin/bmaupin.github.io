@@ -1,19 +1,21 @@
 angular.module('app', ['ui.bootstrap'])
-  // Show tooltips when clicking and hide them on mouseleave
-  .config(['$tooltipProvider', function($tooltipProvider){
-    $tooltipProvider.setTriggers({
-      'click': 'mouseleave',
-    });
-  }])
-
-  .controller('Controller', ['$scope', function($scope) {
+  .controller('Controller', ['$scope', '$timeout', function($scope, $timeout) {
     $scope.includeLower = true;
     $scope.includeUpper = true;
     $scope.includeNumbers = true;
     $scope.includeSymbols = true;
+
+    $scope.changeTooltip = function() {
+      $scope.dynamicTooltip = 'Copied!';
+    }
+
+    $scope.resetTooltip = function() {
+      $scope.dynamicTooltip = 'Copy to clipboard';
+    }
   
     $scope.generateNewPass = function() {
       $scope.newPassword = WeightedPasswordGen.genPassword();
+      $scope.resetTooltip();
     };
     
     $scope.generateNewPass();

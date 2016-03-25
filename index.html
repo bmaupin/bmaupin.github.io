@@ -19,7 +19,7 @@ layout:
       <table id="passwordTable">
         <tr>
           <td id="copyPassword">
-            <button class="btn" type="button" data-clipboard-target="#newPassword" tooltip="Copied!" tooltip-placement="bottom" tooltip-trigger="click">
+            <button class="btn" type="button" data-clipboard-target="#newPassword" tooltip="{% raw %}{{dynamicTooltip}}{% endraw %}" tooltip-placement="bottom" tooltip-trigger="mouseenter" ng-click="changeTooltip()">
               <img class="clippy" src="assets/images/clippy.svg" alt="Copy to clipboard">
             </button>
           </td>

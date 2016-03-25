@@ -1,4 +1,11 @@
-angular.module('app', [])
+angular.module('app', ['ui.bootstrap'])
+  // Show tooltips when clicking and hide them on mouseleave
+  .config(['$tooltipProvider', function($tooltipProvider){
+    $tooltipProvider.setTriggers({
+      'click': 'mouseleave',
+    });
+  }])
+
   .controller('Controller', ['$scope', function($scope) {
     $scope.includeLower = true;
     $scope.includeUpper = true;
@@ -7,7 +14,7 @@ angular.module('app', [])
   
     $scope.generateNewPass = function() {
       $scope.newPassword = WeightedPasswordGen.genPassword();
-    }
+    };
     
     $scope.generateNewPass();
     
@@ -18,8 +25,12 @@ angular.module('app', [])
       WeightedPasswordGen.charClasses["symbols"].enabled = $scope.includeSymbols;
     
       $scope.generateNewPass();
-    }
+    };
+
+    // Instantiate clipboard.js (https://clipboardjs.com/)
+    new Clipboard('.btn');
   }])
+  
   // Directive to select the password text when clicking on it for easier copying
   .directive('selectOnClick', function () {
     return {
@@ -35,4 +46,3 @@ angular.module('app', [])
       }
     };
   });
-

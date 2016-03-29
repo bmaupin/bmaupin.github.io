@@ -7,7 +7,8 @@ layout:
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
     <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
     <script src="https://rawgit.com/bmaupin/weighted-password-generator/master/weighted-passgen.js"></script>
-    <!--<script src="src/numberpicker/numberpicker.js"></script>-->
+    <!--<script src="https://cdn.rawgit.com/bmaupin/angular-bootstrap-numberpicker/v0.2/dist/angular-bootstrap-numberpicker-0.2.0.min.js"></script>-->
+    <script src="angular-bootstrap-numberpicker-0.2.0.js"></script>
     <script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v1.5.8/dist/clipboard.min.js"></script>
     <script src="assets/scripts/app.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -19,7 +20,7 @@ layout:
       <table id="passwordTable">
         <tr>
           <td id="copyPassword">
-            <button class="btn" type="button" data-clipboard-target="#newPassword" tooltip="{% raw %}{{dynamicTooltip}}{% endraw %}" tooltip-placement="bottom" tooltip-trigger="mouseenter" ng-click="changeTooltip()">
+            <button id="copyPasswordButton" class="btn" type="button" data-clipboard-target="#newPassword" tooltip="{% raw %}{{dynamicTooltip}}{% endraw %}" tooltip-placement="bottom" tooltip-trigger="mouseenter" ng-click="changeTooltip()">
               <img class="clippy" src="assets/images/clippy.svg" alt="Copy to clipboard">
             </button>
           </td>
@@ -29,6 +30,8 @@ layout:
         </tr>
       </table>
       <div>
+        <numberpicker default-value="16" ng-model="passwordLength" ng-change="updateLength()"></numberpicker>
+        <!--<pre class="alert alert-info">Number is: {% raw %}{{value}}{% endraw %}</pre>-->
         <input type="checkbox" ng-model="includeLower" ng-change="updateClasses()"> Include lowercase (abc...)<br/>
         <input type="checkbox" ng-model="includeUpper" ng-change="updateClasses()"> Include uppercase (ABC...)<br/>
         <input type="checkbox" ng-model="includeNumbers" ng-change="updateClasses()"> Include numbers (123...)<br/>

@@ -31,7 +31,6 @@ layout:
       </table>
       <div>
         <numberpicker default-value="16" ng-model="passwordLength" ng-change="updateLength()"></numberpicker>
-        <!--<pre class="alert alert-info">Number is: {% raw %}{{value}}{% endraw %}</pre>-->
         <input type="checkbox" ng-model="includeLower" ng-change="updateClasses()"> Include lowercase (abc...)<br/>
         <input type="checkbox" ng-model="includeUpper" ng-change="updateClasses()"> Include uppercase (ABC...)<br/>
         <input type="checkbox" ng-model="includeNumbers" ng-change="updateClasses()"> Include numbers (123...)<br/>

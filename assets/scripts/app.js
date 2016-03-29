@@ -1,9 +1,11 @@
-angular.module('app', ['ui.bootstrap'])
-  .controller('Controller', ['$scope', '$timeout', function($scope, $timeout) {
+angular.module('app', ['ui.bootstrap', 'angularBootstrapNumberpicker'])
+  .controller('Controller', ['$scope', function($scope) {
     $scope.includeLower = true;
     $scope.includeUpper = true;
     $scope.includeNumbers = true;
     $scope.includeSymbols = true;
+
+//    $log.log($scope);
 
     $scope.changeTooltip = function() {
       $scope.dynamicTooltip = 'Copied!';
@@ -29,8 +31,16 @@ angular.module('app', ['ui.bootstrap'])
       $scope.generateNewPass();
     };
 
+    $scope.updateLength = function() {
+//      $log.log('Value changed=' + $scope.passwordLength);/*
+      WeightedPasswordGen.setPasswordLength($scope.passwordLength);
+      $scope.generateNewPass();
+
+//      $log.log('WeightedPasswordGen.getPasswordLength()=' + WeightedPasswordGen.getPasswordLength());
+    };
+
     // Instantiate clipboard.js (https://clipboardjs.com/)
-    new Clipboard('.btn');
+    new Clipboard('#copyPasswordButton');
   }])
   
   // Directive to select the password text when clicking on it for easier copying

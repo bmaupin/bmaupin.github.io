@@ -10,8 +10,6 @@ title: Projects
     - [Number picker for Angular UI Bootstrap](https://github.com/bmaupin/angular-bootstrap-numberpicker)
 - [EPUB samples for development](https://github.com/bmaupin/epub-samples)
   - EPUB
-- Arabic flashcards app for Android
-  - Java, Android
 - [Wordpress Site Plugins page](https://github.com/bmaupin/wordpress-site-plugins)
   - PHP, WordPress
 - [WordPress MU Prune plugin](https://github.com/bmaupin/junkpile/tree/master/php/wpmu-prune)

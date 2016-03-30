@@ -50,6 +50,19 @@ angular.module('app', ['ui.bootstrap', 'angularBootstrapNumberpicker'])
       $scope.generateNewPass();
     };
 
+    // Big ugly hack so the numberpicker isn't too small since it's initially hidden
+    $scope.resizeNumberpicker = function() {
+      var inputs = document.getElementsByTagName('input');
+      for (var i = 0, len = inputs.length; i < len; i++) {
+        if (inputs[i].attributes.getNamedItem('resizable-input')) {
+          if (inputs[i].style.width == '30px') {
+            inputs[i].style.width = '45px';
+          }
+          break;
+        }
+      }
+    };
+
     setMin();
     $scope.generateNewPass();
 

@@ -1,9 +1,11 @@
 angular.module('app', ['ui.bootstrap', 'angularBootstrapNumberpicker'])
-  .controller('Controller', ['$scope', function($scope) {
+  .controller('Controller', ['$scope', '$log', function($scope, $log) {
     $scope.includeLower = true;
     $scope.includeUpper = true;
     $scope.includeNumbers = true;
-    $scope.includeSymbols = true;
+    $scope.includeSymbols = false;
+
+    $log.log($scope);
 
     $scope.changeTooltip = function() {
       $scope.dynamicTooltip = 'Copied!';

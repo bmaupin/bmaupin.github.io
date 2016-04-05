@@ -12,7 +12,9 @@ layout:
     <script src="assets/scripts/app.js"></script>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css">
     <link rel="stylesheet" href="assets/styles/style.css">
   </head>
   <body>
@@ -51,10 +53,10 @@ layout:
                   </td>
                 </tr>
               </table>
-              <input type="checkbox" ng-model="includeLower" ng-change="updateClasses()"> Include lowercase (abc...)<br/>
-              <input type="checkbox" ng-model="includeUpper" ng-change="updateClasses()"> Include uppercase (ABC...)<br/>
-              <input type="checkbox" ng-model="includeNumbers" ng-change="updateClasses()"> Include numbers (123...)<br/>
-              <input type="checkbox" ng-model="includeSymbols" ng-change="updateClasses()"> Include symbols (@#$...)<br/>
+              <input type="checkbox" data-toggle="toggle" ng-model="includeLower" ng-change="updateClasses()"> Include lowercase (abc...)<br/>
+              <input type="checkbox" data-toggle="toggle" ng-model="includeUpper" ng-change="updateClasses()"> Include uppercase (ABC...)<br/>
+              <input type="checkbox" data-toggle="toggle" ng-model="includeNumbers" ng-change="updateClasses()"> Include numbers (123...)<br/>
+              <input type="checkbox" data-toggle="toggle" ng-model="includeSymbols" ng-change="updateClasses()"> Include symbols (@#$...)<br/>
             </div>
           </div>
         </div>

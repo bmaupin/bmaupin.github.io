@@ -12,9 +12,8 @@ layout:
     <script src="assets/scripts/app.js"></script>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css">
+    <link rel="stylesheet" href="assets/styles/checkbox.css">
     <link rel="stylesheet" href="assets/styles/style.css">
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
   </head>
@@ -56,25 +55,25 @@ layout:
                 <tr>
                   <td>Include lowercase (abc...)</td>
                   <td>
-                    <input type="checkbox" data-toggle="toggle" data-on="✓" data-off=" " ng-model="includeLower" ng-change="updateClasses()">
+                    <input class="styled-checkbox" type="checkbox" ng-model="includeLower" ng-change="updateClasses()">
                   </td>
                 </tr>
                 <tr>
                   <td>Include uppercase (ABC...)</td>
                   <td>
-                    <input type="checkbox" data-toggle="toggle" data-on="✓" data-off=" " ng-model="includeUpper" ng-change="updateClasses()">
+                    <input class="styled-checkbox" type="checkbox" ng-model="includeUpper" ng-change="updateClasses()">
                   </td>
                 </tr>
                 <tr>
                   <td>Include numbers (123...)</td>
                   <td>
-                    <input type="checkbox" data-toggle="toggle" data-on="✓" data-off=" " ng-model="includeNumbers" ng-change="updateClasses()">
+                    <input class="styled-checkbox" type="checkbox" ng-model="includeNumbers" ng-change="updateClasses()">
                   </td>
                 </tr>
                 <tr>
                   <td>Include symbols (@#$...)</td>
                   <td>
-                    <input type="checkbox" data-toggle="toggle" data-on="✓" data-off=" " ng-model="includeSymbols" ng-change="updateClasses()">
+                    <input class="styled-checkbox" type="checkbox" ng-model="includeSymbols" ng-change="updateClasses()">
                   </td>
                 </tr>
               </table>

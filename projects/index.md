@@ -10,6 +10,8 @@ title: Projects
     - [Number picker for Angular UI Bootstrap](https://github.com/bmaupin/angular-bootstrap-numberpicker)
 - [EPUB samples for development](https://github.com/bmaupin/epub-samples)
   - EPUB
+- [Chrome extension for copying from SharePoint](https://github.com/bmaupin/chrome-copy-from-sharepoint)
+  - JavaScript, Chrome API
 - [Wordpress Site Plugins page](https://github.com/bmaupin/wordpress-site-plugins)
   - PHP, WordPress
 - [WordPress MU Prune plugin](https://github.com/bmaupin/junkpile/tree/master/php/wpmu-prune)

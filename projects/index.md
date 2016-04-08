@@ -3,14 +3,14 @@ title: Projects
 ---
 
 #### My projects
-- [Password generator page](http://bmaupin.github.io/)
+- [Password generator page](http://bmaupin.github.io/) ([source code](https://github.com/bmaupin/bmaupin.github.io))
   - JavaScript, AngularJS, Bootstrap, Node.js, Grunt
   - Subprojects:
     - [JavaScript weighted password generator](https://github.com/bmaupin/weighted-password-generator)
     - [Number picker for Angular UI Bootstrap](https://github.com/bmaupin/angular-bootstrap-numberpicker)
 - [EPUB samples for development](https://github.com/bmaupin/epub-samples)
   - EPUB
-- [Chrome extension for copying from SharePoint](https://github.com/bmaupin/chrome-copy-from-sharepoint)
+- [Chrome extension for copying text without hidden characters](https://chrome.google.com/webstore/detail/copy-without-hidden-chara/kdlmljhnfhdgngjpimpahgomefdlndle) ([source code](https://github.com/bmaupin/chrome-copy-without-hidden-characters))
   - JavaScript, Chrome API
 - [Wordpress Site Plugins page](https://github.com/bmaupin/wordpress-site-plugins)
   - PHP, WordPress

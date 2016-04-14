@@ -8,7 +8,7 @@ layout:
     <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
     <script src="http://bmaupin.github.io/weighted-password-generator/weighted-passgen-0.2.0.min.js"></script>
     <script src="http://bmaupin.github.io/angular-bootstrap-numberpicker/angular-bootstrap-numberpicker-0.2.1.min.js"></script>
-    <script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v1.5.8/dist/clipboard.min.js"></script>
+    <script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v1.5.10/dist/clipboard.min.js"></script>
     <script src="assets/scripts/app.js"></script>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -54,26 +54,28 @@ layout:
                 </tr>
                 <tr>
                   <td>Include lowercase (abc...)</td>
-                  <td>
-                    <input class="styled-checkbox" type="checkbox" ng-model="includeLower" ng-change="updateClasses()">
+                  <td class="styled-checkbox">
+                    <div>
+                      <input id="checkbox1" type="checkbox" ng-model="includeLower" ng-change="updateClasses()"><label for="checkbox1"></label>
+                    </div>
                   </td>
                 </tr>
                 <tr>
                   <td>Include uppercase (ABC...)</td>
-                  <td>
-                    <input class="styled-checkbox" type="checkbox" ng-model="includeUpper" ng-change="updateClasses()">
+                  <td class="styled-checkbox">
+                    <input id="checkbox2" type="checkbox" ng-model="includeUpper" ng-change="updateClasses()"><label for="checkbox2"></label>
                   </td>
                 </tr>
                 <tr>
                   <td>Include numbers (123...)</td>
-                  <td>
-                    <input class="styled-checkbox" type="checkbox" ng-model="includeNumbers" ng-change="updateClasses()">
+                  <td class="styled-checkbox">
+                    <input id="checkbox3" type="checkbox" ng-model="includeNumbers" ng-change="updateClasses()"><label for="checkbox3"></label>
                   </td>
                 </tr>
                 <tr>
                   <td>Include symbols (@#$...)</td>
-                  <td>
-                    <input class="styled-checkbox" type="checkbox" ng-model="includeSymbols" ng-change="updateClasses()">
+                  <td class="styled-checkbox">
+                    <input id="checkbox4" type="checkbox" ng-model="includeSymbols" ng-change="updateClasses()"><label for="checkbox4"></label>
                   </td>
                 </tr>
               </table>

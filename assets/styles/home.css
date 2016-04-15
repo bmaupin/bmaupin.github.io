@@ -1,0 +1,40 @@
+/* http://getbootstrap.com/components/#callout-navbar-fixed-top-padding */
+body {
+  padding-top: 70px;
+}
+
+ul#links {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul#links li#askubuntu {
+  background-color: #de4508;
+}
+
+ul#links li#blogger {
+  background-color: #f57d00;
+}
+
+ul#links li#github {
+  background-color: #333333;
+}
+
+ul#links li#google-sites {
+  background-color: #0266C8;
+}
+
+ul#links li#stackoverflow {
+  background-color: #FE7A15;
+}
+
+ul#links li {
+  display: inline-block;
+  height: 100px;
+  margin-right: 5px;
+  width: 100px;
+}
+
+ul#links li a div {
+  padding: 25px;
+}

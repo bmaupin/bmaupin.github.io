@@ -2,26 +2,72 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   viewBox="0 0 64 64"
-   id="svg3715">
+   viewBox="0 0 58.499587 58.498018"
+   id="svg3715"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="stackoverflow.svg">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview12"
+     showgrid="false"
+     fit-margin-left="6.32"
+     fit-margin-right="6.32"
+     inkscape:zoom="3.6875"
+     inkscape:cx="15.702869"
+     inkscape:cy="15.494058"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3715"
+     fit-margin-top="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs3717" />
   <g
-     id="layer1">
+     id="layer1"
+     transform="translate(-2.9611885,-2.7509919)">
     <path
        d="m 9.3049611,36.847632 4.4013079,0.04316 -0.153442,19.598393 29.291259,0 0,-19.527506 4.637782,0 0,24.287331 -38.2006795,0 0.023777,-24.401371 z"
        id="path2830"
-       style="fill:white;fill-opacity:1;stroke:none" />
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       inkscape:connector-curvature="0" />
     <rect
        width="22.944817"
        height="4.881876"
        x="16.481951"
        y="48.434078"
        id="rect3604"
-       style="fill:white;fill-opacity:1;stroke:none" />
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
     <rect
        width="23.066864"
        height="5.0039229"
@@ -29,7 +75,7 @@
        y="37.830307"
        transform="matrix(0.9953749,0.09606666,-0.09606666,0.9953749,0,0)"
        id="rect3606"
-       style="fill:white;fill-opacity:1;stroke:none" />
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
     <rect
        width="23.066864"
        height="5.0039229"
@@ -37,7 +83,7 @@
        y="23.401554"
        transform="matrix(0.96240291,0.27162592,-0.27162592,0.96240291,0,0)"
        id="rect3606-1"
-       style="fill:white;fill-opacity:1;stroke:none" />
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
     <rect
        width="23.066864"
        height="5.0039229"
@@ -45,7 +91,7 @@
        y="3.1535864"
        transform="matrix(0.85597805,0.51701216,-0.51701216,0.85597805,0,0)"
        id="rect3606-1-3"
-       style="fill:white;fill-opacity:1;stroke:none" />
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
     <rect
        width="23.066864"
        height="5.0039229"
@@ -53,7 +99,7 @@
        y="-24.475019"
        transform="matrix(0.58242689,0.81288309,-0.81288309,0.58242689,0,0)"
        id="rect3606-1-3-7"
-       style="fill:white;fill-opacity:1;stroke:none" />
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
     <rect
        width="23.066864"
        height="5.0039229"
@@ -61,6 +107,6 @@
        y="-50.183693"
        transform="matrix(0.16480989,0.98632535,-0.98632535,0.16480989,0,0)"
        id="rect3606-1-3-7-6"
-       style="fill:white;fill-opacity:1;stroke:none" />
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
   </g>
 </svg>

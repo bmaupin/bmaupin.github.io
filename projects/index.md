@@ -2,22 +2,35 @@
 title: Projects
 ---
 
-#### My projects
-- [Password generator page](http://bmaupin.github.io/) ([source code](https://github.com/bmaupin/bmaupin.github.io))
+#### Highlighted projects
+- [Password generator page](http://bmaupin.github.io/passgen/) ([source code](https://github.com/bmaupin/bmaupin.github.io))
   - JavaScript, AngularJS, Bootstrap, Node.js, Grunt
   - Subprojects:
     - [JavaScript weighted password generator](https://github.com/bmaupin/weighted-password-generator)
     - [Number picker for Angular UI Bootstrap](https://github.com/bmaupin/angular-bootstrap-numberpicker)
-- [EPUB samples for development](https://github.com/bmaupin/epub-samples)
-  - EPUB
+- [Go library for creating EPUB files](https://github.com/bmaupin/go-epub)
+  - Go, EPUB, Travis, Coveralls
+- [Arabic flashcard app for Android](https://github.com/bmaupin/android-arabic-flashcards)
+  - Java, SQLite, Android API, font customization, Python
 - [Chrome extension for copying text without hidden characters](https://chrome.google.com/webstore/detail/copy-without-hidden-chara/kdlmljhnfhdgngjpimpahgomefdlndle) ([source code](https://github.com/bmaupin/chrome-copy-without-hidden-characters))
   - JavaScript, Chrome API
 - [Wordpress Site Plugins page](https://github.com/bmaupin/wordpress-site-plugins)
   - PHP, WordPress
-- [WordPress MU Prune plugin](https://github.com/bmaupin/junkpile/tree/master/php/wpmu-prune)
-  - PHP, WordPress, MySQL
+
+<br>
+
+
+#### Other projects
 - [CUPS backend for IPP with NTLM](https://github.com/bmaupin/cups-ntlm)
   - Python, CUPS, IPP
+- [EPUB samples for development](https://github.com/bmaupin/epub-samples)
+  - EPUB
+- [Go utility packages](https://github.com/bmaupin/go-util)
+  - Go
+- [Simple webapp for comparing USD to CAD exchange rates](https://github.com/bmaupin/usdtocad)
+  - Go, MongoDB, OpenShift
+- [WordPress MU Prune plugin](https://github.com/bmaupin/junkpile/tree/master/php/wpmu-prune)
+  - PHP, WordPress, MySQL
 
 <br>
 
@@ -31,3 +44,5 @@ title: Projects
   - Python
 - [Sidebar Login plugin for WordPress](https://github.com/mikejolley/sidebar-login)
   - PHP, WordPress
+- [Top Icons GNOME Shell extention](https://github.com/wincinderith/topicons)
+  - JavaScript, GNOME extension API

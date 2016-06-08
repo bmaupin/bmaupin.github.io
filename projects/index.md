@@ -3,13 +3,13 @@ title: Projects
 ---
 
 #### Highlighted projects
-- [Password generator page](http://bmaupin.github.io/passgen/) ([source code](https://github.com/bmaupin/bmaupin.github.io))
+- [Password generator page](http://bmaupin.github.io/passgen/) ([source code](https://github.com/bmaupin/bmaupin.github.io/tree/master/passgen))
   - JavaScript, AngularJS, Bootstrap, Node.js, Grunt
-  - Subprojects:
+  - Subprojects
     - [JavaScript weighted password generator](https://github.com/bmaupin/weighted-password-generator)
     - [Number picker for Angular UI Bootstrap](https://github.com/bmaupin/angular-bootstrap-numberpicker)
 - [Go library for creating EPUB files](https://github.com/bmaupin/go-epub)
-  - Go, EPUB, Travis, Coveralls
+  - Go, EPUB, Glide, Travis, Coveralls
 - [Arabic flashcard app for Android](https://github.com/bmaupin/android-arabic-flashcards)
   - Java, SQLite, Android API, font customization, Python
 - [Chrome extension for copying text without hidden characters](https://chrome.google.com/webstore/detail/copy-without-hidden-chara/kdlmljhnfhdgngjpimpahgomefdlndle) ([source code](https://github.com/bmaupin/chrome-copy-without-hidden-characters))
@@ -36,13 +36,13 @@ title: Projects
 
 
 #### Projects I've contributed to
-- [Better Arabic Reshaper](https://github.com/agawish/Better-Arabic-Reshaper)
+- [Better Arabic Reshaper](https://github.com/agawish/Better-Arabic-Reshaper/commits?author=bmaupin)
   - Java
 - [Blubrry PowerPress plugin](https://wordpress.org/plugins/powerpress/)
   - PHP, WordPress
-- [pytoutv](https://github.com/bvanheu/pytoutv)
+- [pytoutv](https://github.com/bvanheu/pytoutv/commits?author=bmaupin)
   - Python
-- [Sidebar Login plugin for WordPress](https://github.com/mikejolley/sidebar-login)
+- [Sidebar Login plugin for WordPress](https://github.com/mikejolley/sidebar-login/commits?author=bmaupin)
   - PHP, WordPress
-- [Top Icons GNOME Shell extention](https://github.com/wincinderith/topicons)
+- [Top Icons GNOME Shell extention](https://github.com/wincinderith/topicons/commits?author=bmaupin)
   - JavaScript, GNOME extension API

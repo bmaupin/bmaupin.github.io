@@ -25,6 +25,8 @@ title: Projects
   - Python, CUPS, IPP
 - [EPUB samples for development](https://github.com/bmaupin/epub-samples)
   - EPUB
+- [Go documentation in EPUB format](https://github.com/bmaupin/go-docs-epub)
+  - Go, EPUB
 - [Go utility packages](https://github.com/bmaupin/go-util)
   - Go
 - [Simple webapp for comparing USD to CAD exchange rates](https://github.com/bmaupin/usdtocad)

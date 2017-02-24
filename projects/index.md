@@ -27,11 +27,11 @@ title: Projects
   - EPUB
 - [Go documentation in EPUB format](https://github.com/bmaupin/go-docs-epub)
   - Go, EPUB
-- [Go utility packages](https://github.com/bmaupin/go-util)
+- Go utility packages: [go-fileutil](https://github.com/bmaupin/go-fileutil), [go-htmlutil](https://github.com/bmaupin/go-htmlutil)
   - Go
 - [Simple webapp for comparing USD to CAD exchange rates](https://github.com/bmaupin/usdtocad)
   - Go, MongoDB, OpenShift
-- [WordPress MU Prune plugin](https://github.com/bmaupin/junkpile/tree/master/php/wpmu-prune)
+- [WordPress MU Prune plugin](https://github.com/bmaupin/wpmu-prune)
   - PHP, WordPress, MySQL
 
 <br>

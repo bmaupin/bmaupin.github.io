@@ -1,4 +1,6 @@
 ul#links {
+  /* Remove extra horizontal spacing between elements (https://stackoverflow.com/a/19038859/399105) */
+  font-size: 0;
   list-style-type: none;
   padding: 0;
 }
@@ -26,7 +28,7 @@ ul#links li#stackoverflow {
 ul#links li {
   display: inline-block;
   height: 100px;
-  margin-right: 5px;
+  margin: 0 10px 10px 0;
   width: 100px;
 }
 

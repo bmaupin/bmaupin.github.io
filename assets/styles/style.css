@@ -1,8 +1,8 @@
-/* http://getbootstrap.com/components/#callout-navbar-fixed-top-padding */
-body {
-  padding-top: 70px;
-}
-
 svg path {
     fill: #000;
+}
+
+/* Dropped from Bootstrap v4 (https://getbootstrap.com/docs/4.0/migration/#typography) */
+.page-header {
+  margin: 40px 0 20px 0;
 }

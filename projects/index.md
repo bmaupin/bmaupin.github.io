@@ -4,24 +4,17 @@ title: Projects
 
 #### Highlighted projects
 - [Civilization V save editor](https://bmaupin.github.io/react-civ5save-editor/) ([source code](https://github.com/bmaupin/react-civ5save-editor))
-  - JavaScript, React, Travis, Yarn
-  - Subproject: [https://github.com/bmaupin/js-civ5save](https://github.com/bmaupin/js-civ5save)
-    - JavaScript, Babel, Coveralls, ESDoc, ESLint, Jest, Travis, Webpack, Yarn
+  - JavaScript (ES8), React, Material-UI
 - [Go library for creating EPUB files](https://github.com/bmaupin/go-epub)
-  - Go, EPUB, Glide, Travis, Coveralls
-  - Subproject: [EPUB samples for development](https://github.com/bmaupin/epub-samples)
+  - Go, EPUB
 - [Chrome extension for copying text without hidden characters](https://chrome.google.com/webstore/detail/copy-without-hidden-chara/kdlmljhnfhdgngjpimpahgomefdlndle) ([source code](https://github.com/bmaupin/chrome-copy-without-hidden-characters))
   - JavaScript, Chrome API
 - [Wordpress Site Plugins page](https://github.com/bmaupin/wordpress-site-plugins)
   - PHP, WordPress
-- [Simple password generator](https://bmaupin.github.io/simple-password-generator/) ([source code](https://bmaupin.github.io/simple-password-generator/))
-  - JavaScript, AngularJS, Bootstrap, clipboard.js, npm
-  - Subprojects
-    - [JavaScript weighted password generator](https://github.com/bmaupin/weighted-password-generator)
-    - [Number picker for Angular UI Bootstrap](https://github.com/bmaupin/angular-bootstrap-numberpicker)
-      - JavaScript, AngularJS, Bootstrap, Grunt, JSHint, npm
+- [Simple password generator](https://bmaupin.github.io/simple-password-generator/) ([source code](https://github.com/bmaupin/simple-password-generator))
+  - JavaScript, AngularJS, Bootstrap
 - [Arabic flashcard app for Android](https://github.com/bmaupin/android-arabic-flashcards)
-  - Java, Android, SQLite, font customization, Python
+  - Java, Android, SQLite
 
 <br>
 

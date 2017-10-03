@@ -3,18 +3,72 @@ title: Projects
 ---
 
 #### Highlighted projects
-- [Civilization V save editor](https://bmaupin.github.io/react-civ5save-editor/) ([source code](https://github.com/bmaupin/react-civ5save-editor))
-  - JavaScript (ES8), React, Material-UI
-- [Go library for creating EPUB files](https://github.com/bmaupin/go-epub)
-  - Go, EPUB
-- [Chrome extension for copying text without hidden characters](https://chrome.google.com/webstore/detail/copy-without-hidden-chara/kdlmljhnfhdgngjpimpahgomefdlndle) ([source code](https://github.com/bmaupin/chrome-copy-without-hidden-characters))
-  - JavaScript, Chrome API
-- [Wordpress Site Plugins page](https://github.com/bmaupin/wordpress-site-plugins)
-  - PHP, WordPress
-- [Simple password generator](https://bmaupin.github.io/simple-password-generator/) ([source code](https://github.com/bmaupin/simple-password-generator))
-  - JavaScript, AngularJS, Bootstrap
-- [Arabic flashcard app for Android](https://github.com/bmaupin/android-arabic-flashcards)
-  - Java, Android, SQLite
+
+<div class="highlighted-projects">
+  <div class="highlighted-project">
+    <a href="https://bmaupin.github.io/react-civ5save-editor/"><img src="/assets/images/projects/civ5save-editor.png"></a>
+    <div>
+      <a href="https://bmaupin.github.io/react-civ5save-editor/">Civilization V save editor</a> <a href="https://github.com/bmaupin/react-civ5save-editor">(source code)</a>
+      <ul>
+        <li>JavaScript (ES8)</li>
+        <li>React</li>
+        <li>Material-UI</li>
+      </ul>
+    </div>
+  </div>
+  <div class="highlighted-project">
+    <a href="https://chrome.google.com/webstore/detail/copy-without-hidden-chara/kdlmljhnfhdgngjpimpahgomefdlndle"><img src="/assets/images/projects/chrome-copy.png"></a>
+    <div>
+      <a href="https://chrome.google.com/webstore/detail/copy-without-hidden-chara/kdlmljhnfhdgngjpimpahgomefdlndle">Chrome extension for copying without hidden characters</a> <a href="https://github.com/bmaupin/chrome-copy-without-hidden-characters">(source code)</a>
+      <ul>
+        <li>JavaScript</li>
+        <li>Chrome API</li>
+      </ul>
+    </div>
+  </div>
+  <div class="highlighted-project">
+    <a href="https://github.com/bmaupin/go-epub"><img src="/assets/images/projects/go-epub.png"></a>
+    <div>
+      <a href="https://github.com/bmaupin/go-epub">Go library for creating EPUB files</a>
+      <ul>
+        <li>Go</li>
+        <li>EPUB</li>
+      </ul>
+    </div>
+  </div>
+  <div class="highlighted-project">
+    <a href="https://github.com/bmaupin/wordpress-site-plugins"><img src="/assets/images/projects/wp-site-plugins.png"></a>
+    <div>
+      <a href="https://github.com/bmaupin/wordpress-site-plugins">Wordpress Site Plugins page</a>
+      <ul>
+        <li>PHP</li>
+        <li>WordPress</li>
+      </ul>
+    </div>
+  </div>
+  <div class="highlighted-project">
+    <a href="https://bmaupin.github.io/simple-password-generator/"><img src="/assets/images/projects/simple-passgen.png"></a>
+    <div>
+      <a href="https://bmaupin.github.io/simple-password-generator/">Simple password generator</a> <a href="https://github.com/bmaupin/simple-password-generator">(source code)</a>
+      <ul>
+        <li>JavaScript</li>
+        <li>AngularJS</li>
+        <li>Bootstrap</li>
+      </ul>
+    </div>
+  </div>
+  <div class="highlighted-project">
+    <a href="https://github.com/bmaupin/android-arabic-flashcards"><img src="/assets/images/projects/arabic-flashcards.png"></a>
+    <div>
+      <a href="https://github.com/bmaupin/android-arabic-flashcards">Arabic flashcard app for Android</a>
+      <ul>
+        <li>Java</li>
+        <li>Android</li>
+        <li>SQLite</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 <br>
 

@@ -6,3 +6,31 @@ svg path {
 .page-header {
   margin: 40px 0 20px 0;
 }
+
+.highlighted-project {
+  display: flex;
+  flex: 0 1 540px;
+  padding: 10px 0;
+}
+
+.highlighted-project > a {
+  color: #999;
+}
+
+.highlighted-project img {
+  border-radius: 50px;
+  box-shadow: 3px 3px 3px;
+  display: inline-block;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.highlighted-project ul {
+  margin: 0;
+}
+
+.highlighted-projects {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 0 0 20px;
+}

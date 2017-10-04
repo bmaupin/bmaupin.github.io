@@ -5,6 +5,10 @@ ul#links {
   padding: 0;
 }
 
+ul#links li:hover {
+  opacity: 0.9;
+}
+
 ul#links li#askubuntu {
   background-color: #de4508;
 }

@@ -21,6 +21,10 @@ svg path {
   margin-right: 10px;
 }
 
+.highlighted-project img:hover {
+  opacity: 0.9;
+}
+
 .highlighted-project ul {
   margin: 0;
 }

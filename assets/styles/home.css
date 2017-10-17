@@ -1,41 +1,43 @@
-ul#links {
-  /* Remove extra horizontal spacing between elements (https://stackoverflow.com/a/19038859/399105) */
-  font-size: 0;
-  list-style-type: none;
-  padding: 0;
+#sites {
+  display: flex;
+  flex-flow: row wrap;
 }
 
-ul#links li:hover {
-  opacity: 0.9;
-}
-
-ul#links li#askubuntu {
-  background-color: #de4508;
-}
-
-ul#links li#blogger {
-  background-color: #f57d00;
-}
-
-ul#links li#github {
-  background-color: #333333;
-}
-
-ul#links li#google-sites {
-  background-color: #0266C8;
-}
-
-ul#links li#stackoverflow {
-  background-color: #FE7A15;
-}
-
-ul#links li {
-  display: inline-block;
+#sites > div {
   height: 100px;
   margin: 0 10px 10px 0;
   width: 100px;
 }
 
-ul#links li a div {
+#sites div:hover {
+  opacity: 0.9;
+}
+
+#sites div div {
   padding: 25px;
+}
+
+#sites img {
+  height: 50px;
+  width: 50px;
+}
+
+#sites #askubuntu {
+  background-color: #de4508;
+}
+
+#sites #blog {
+  background-color: #f57d00;
+}
+
+#sites #github {
+  background-color: #333333;
+}
+
+#sites #wiki {
+  background-color: #0266c8;
+}
+
+#sites #stackoverflow {
+  background-color: #fe7a15;
 }

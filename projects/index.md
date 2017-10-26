@@ -6,9 +6,9 @@ title: Projects
 
 <div class="highlighted-projects">
   <div class="highlighted-project">
-    <a href="https://bmaupin.github.io/react-civ5save-editor/"><img src="/assets/images/projects/civ5save-editor.png"></a>
+    <a href="https://bmaupin.github.io/civ5save-editor/"><img src="/assets/images/projects/civ5save-editor.png"></a>
     <div>
-      <a href="https://bmaupin.github.io/react-civ5save-editor/">Civilization V save editor</a> <a href="https://github.com/bmaupin/react-civ5save-editor">(source code)</a>
+      <a href="https://bmaupin.github.io/civ5save-editor/">Civilization V save editor</a> <a href="https://github.com/bmaupin/civ5save-editor">(source code)</a>
       <ul>
         <li>JavaScript (ES8)</li>
         <li>React</li>

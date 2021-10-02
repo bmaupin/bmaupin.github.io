@@ -2,7 +2,7 @@
 title: Projects
 ---
 
-#### Highlighted projects
+Here's a selection of projects I've worked on. See here for all of my projects: [https://github.com/bmaupin?tab=repositories](https://github.com/bmaupin?tab=repositories)
 
 <div class="highlighted-projects">
   <div class="highlighted-project">
@@ -69,28 +69,3 @@ title: Projects
     </div>
   </div>
 </div>
-
-<br>
-
-#### Projects I've contributed to
-
-- [Better Arabic Reshaper](https://github.com/agawish/Better-Arabic-Reshaper/commits?author=bmaupin)
-  - Java
-- [Blubrry PowerPress plugin](https://wordpress.org/plugins/powerpress/)
-  - PHP, WordPress
-- [Grails Jsch Ssh2 Plugin](https://github.com/michaelrice/grails-jsch-ssh2/commits?author=bmaupin)
-  - Groovy, Grails
-- [pytoutv](https://github.com/bvanheu/pytoutv/commits?author=bmaupin)
-  - Python
-- [Sidebar Login plugin for WordPress](https://github.com/mikejolley/sidebar-login/commits?author=bmaupin)
-  - PHP, WordPress
-- [Top Icons GNOME Shell extention](https://github.com/wincinderith/topicons/commits?author=bmaupin)
-  - JavaScript, GNOME extension API
-
-<br>
-
-#### Other projects
-
-[https://github.com/bmaupin?tab=repositories](https://github.com/bmaupin?tab=repositories)
-
-<br>

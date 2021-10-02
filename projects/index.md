@@ -73,6 +73,7 @@ title: Projects
 <br>
 
 #### Projects I've contributed to
+
 - [Better Arabic Reshaper](https://github.com/agawish/Better-Arabic-Reshaper/commits?author=bmaupin)
   - Java
 - [Blubrry PowerPress plugin](https://wordpress.org/plugins/powerpress/)
@@ -89,6 +90,7 @@ title: Projects
 <br>
 
 #### Other projects
+
 [https://github.com/bmaupin?tab=repositories](https://github.com/bmaupin?tab=repositories)
 
 <br>
